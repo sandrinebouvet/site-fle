@@ -20,7 +20,7 @@ body{
 .container{max-width:1050px;margin:auto;padding:0 20px;}
 
 header{
-  padding:55px 0 22px;
+  padding:15px 0 10px;
   text-align:center;
 }
 
@@ -84,7 +84,7 @@ nav{
   border-color: transparent;
 }
 
-main{padding: 26px 0 50px;}
+main{padding: 5px 0 50px;}
 
 .card{
   background: #f4f1ee;
@@ -204,4 +204,203 @@ nav{
   display: block;
   width: fit-content;
   margin: 4px auto 16px;
+}
+
+p {
+  margin-bottom: 1.2em;
+  line-height: 1.6;
+}
+.bouton {
+  background-color: #2f6b4f;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 30px;
+  display: block;
+  width: fit-content;
+  margin: 30px auto;
+  font-weight: 600;
+}
+
+.contact-card{
+  max-width: 800px;
+  margin: 10px auto 40px;
+  background: #fff;
+  padding: 50px 40px;
+  border-radius: 24px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.contact-card h2{
+  margin-bottom: 15px;
+}
+
+.contact-intro{
+  color: #666;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.contact-details{
+  margin-bottom: 30px;
+}
+
+.contact-details p{
+  margin: 12px 0;
+  font-size: 1.05rem;
+}
+
+.contact-details a{
+  color: #2f6b4f;
+  text-decoration: none;
+}
+
+.contact-details a:hover{
+  text-decoration: underline;
+}
+
+.contact-buttons{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.page-contact{
+  padding: 1px 20px 60px;
+}
+
+.contact-card{
+  max-width: 760px;
+  margin: 10px auto 40px;
+  background: #fff;
+  padding: 36px 40px 50px;
+  border-radius: 24px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.contact-card h2{
+  margin-bottom: 12px;
+}
+
+.contact-intro{
+  color: #6b645e;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact-form input,
+.contact-form textarea{
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid #d8d2cb;
+  border-radius: 14px;
+  font-size: 1rem;
+  font-family: inherit;
+  background: #fcfbf9;
+  box-sizing: border-box;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus{
+  outline: none;
+  border-color: #7fb3a1;
+  box-shadow: 0 0 0 3px rgba(127,179,161,0.15);
+}
+
+.contact-form textarea{
+  resize: vertical;
+  min-height: 140px;
+}
+
+.contact-buttons{
+  margin-top: 24px;
+}
+
+.btn.secondary{
+  display: inline-block;
+}
+
+button.btn{
+background:var(--accent);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button.btn:hover{
+  background: #6aa38f;
+}
+
+a.btn{
+  display: inline-block;
+  background:var(--accent);
+  color: white;
+  padding: 14px 28px;
+  border-radius: 28px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+a.btn:hover{
+  background: #6aa38f;
+}
+
+.contact-buttons{
+  margin-top:30px;
+}
+
+.btn:hover{
+  opacity:0.9;
+}
+
+body.contact-page header{
+  padding: 20px 0 10px;
+}
+
+body.contact-page main{
+  padding: 8px 0 40px;
+}
+
+body.contact-page header{
+  padding: 12px 0 8px;
+}
+
+body.contact-page main{
+  padding: 0 0 40px;
+}
+
+.contact-card h2{
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.tarifs-grid{
+  display:flex;
+  gap:30px;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+
+.tarifs-grid .card{
+  flex:1;
+  min-width:280px;
+  max-width:450px;
+}
+
+.price-value{
+  font-size:28px;
+  font-weight:700;
+  color:var(--text);
 }
