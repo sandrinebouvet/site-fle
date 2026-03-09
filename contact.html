@@ -6,40 +6,50 @@
   <title>Contact — Sandrine Bouvet</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+<body class="contact-page">
 
 <header class="container">
-  <div class="badge">Me contacter</div>
+
   <h1>Me contacter</h1>
-  <p class="subtitle">Je réponds rapidement</p>
+
 </header>
 
 <nav>
   <div class="container navbar">
-    <a class="active" href="index.html">Accueil</a>
-    <a href="zone.html">Secteur géographique</a>
+    <a href="index.html">Accueil</a>
     <a href="tarifs.html">Tarifs</a>
-    <a href="apropos.html">À propos de moi</a>
-    <a href="contact.html">Me contacter</a>
-    <a href="avis.html">Avis</a>
+    <a href="apropos.html">Présentation</a>
+    <a  class="active" href="contact.html">Me contacter</a>
+   
   </div>
 </nav>
 
-<main class="container">
-  <div class="card">
-    <h2>Coordonnées</h2>
-    <!-- ✍️ change -->
-    <p><strong>Email :</strong> <a href="mailto:sandrine.bouvet@gmail.com">sandrine.bouvet@gmail.com</a></p>
-    <p><strong>Téléphone :</strong> <a href="tel:+330770281517">+33 7 70 28 15 17</a></p>
+<main class="page-contact">
+  <section class="contact-card">
+    <h2>Me contacter</h2>
+    <p class="contact-intro">
+      N’hésitez pas à m’écrire pour toute question ou pour réserver un premier cours.
+    </p>
 
-    <div class="cta" style="justify-content:flex-start;">
-      <a class="btn primary" href="mailto:sandrine@example.com">Envoyer un email</a>
+    <form class="contact-form" action="https://formspree.io/f/TON_CODE_ICI" method="POST">
+      <input type="text" name="name" placeholder="Votre nom" required>
+      
+      <input type="email" name="email" placeholder="Votre adresse email" required>
+      
+      <input type="tel" name="telephone" placeholder="Votre téléphone (facultatif)">
+      
+      <textarea name="message" rows="6" placeholder="Votre message" required></textarea>
+
+      <button type="submit" class="btn">Envoyer</button>
+    </form>
+
+    <div class="contact-buttons">
+     <a href="https://calendly.com/sandrine-bouvet/french-conversation-session" class="btn">Réserver un premier cours</a>
     </div>
-  </div>
+  </section>
 </main>
-
 <footer>
-  © 2026 Sandrine Bouvet — Professeure & Coach scolaire  
+  © 2026 Sandrine Bouvet — Professeure de FLE - Français Langue Etrangère 
   | <a href="mentions-legales.html">Mentions légales</a>
 </footer>
 
