@@ -404,3 +404,14 @@ body.contact-page main{
   font-weight:700;
   color:var(--text);
 }
+.lang-switch{
+  position:absolute;
+  top:15px;
+  right:20px;
+  font-size:22px;
+}
+
+.lang-switch a{
+  text-decoration:none;
+  margin-left:8px;
+}
