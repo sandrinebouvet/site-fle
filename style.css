@@ -405,13 +405,16 @@ body.contact-page main{
   color:var(--text);
 }
 .lang-switch{
-  position:absolute;
-  top:15px;
-  right:20px;
-  font-size:22px;
+  position:fixed;
+  top:20px;
+  right:30px;
+  font-size:14px;
+  font-weight:600;
 }
 
 .lang-switch a{
   text-decoration:none;
-  margin-left:8px;
+  color:#2c2a28;
+  margin-left:10px;
 }
+
