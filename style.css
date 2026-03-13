@@ -418,8 +418,18 @@ body.contact-page main{
   margin-left:10px;
 }
 @media (max-width:768px){
+
   img{
     object-position:50% 10%;
   }
+
+  .lang-switch{
+    top:88px;
+    right:16px;
+    font-size:13px;
+  }
+
 }
+}
+
 
