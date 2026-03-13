@@ -424,24 +424,19 @@ body.contact-page main{
   }
 
   .lang-switch{
-    top:88px;
-    right:16px;
+    position:static;
+    margin:0 auto 20px auto;
+    text-align:center;
     font-size:13px;
   }
-  @media (max-width:768px){
 
-  .lang-switch{
-    position: static;
-    top: auto;
-    right: auto;
-    margin: 0 auto 20px auto;
-    text-align: center;
-  }
+}
 
 }
 
 }
 }
+
 
 
 
