@@ -417,4 +417,9 @@ body.contact-page main{
   color:#2c2a28;
   margin-left:10px;
 }
+@media (max-width:768px){
+  img{
+    object-position:50% 10%;
+  }
+}
 
