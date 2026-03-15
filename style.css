@@ -170,7 +170,11 @@ nav{
   text-align: center;
 }
 
-.price-value {
+.price-value1 {
+  font-size: 15px;
+  font-weight: 500;
+}
+.price-value2 {
   font-size: 22px;
   font-weight: 700;
 }
